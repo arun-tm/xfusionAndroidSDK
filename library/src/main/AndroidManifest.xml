@@ -1,4 +1,4 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.andevice.library">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.teramatrix.library">
 
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -10,9 +10,9 @@
     <application android:allowBackup="true" android:label="@string/app_name"
         android:supportsRtl="true">
 
-        <service android:name=".service.LocationTrackingServcie"></service>
-        <service android:name=".service.DataIntentService"></service>
-        <receiver android:name=".receivers.SdkWakefulBroadcastReceiver"/>
+        <service android:name="com.teramatrix.library.service.LocationTrackingServcie"></service>
+        <service android:name="com.teramatrix.library.service.DataIntentService"></service>
+        <receiver android:name="com.teramatrix.library.receivers.SdkWakefulBroadcastReceiver"/>
     </application>
 
 </manifest>
