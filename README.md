@@ -1,4 +1,4 @@
-# xfusion-android-sdk
+# xfusionAndroidSDK Dummy
 
 This is android mobile library for automating connection(registration) and device's service data updation process for xFusion platform. Any third party app can integrate it and run a service in background which will send device's servcie data to xFusion Platform.
 
